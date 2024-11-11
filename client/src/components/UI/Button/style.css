@@ -1,0 +1,16 @@
+button {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: #ADFF2F;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background: red;
+}
+
+button:hover{
+    background: #008000;
+}

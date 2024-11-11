@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.Item {
+  display: flex;
+  text-align: center;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.Buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.Add {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  gap: 30px;
+}
+
+.Edit {
+  margin-top: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Edit div {
+  display: flex;
+  gap: 60px;
+}
